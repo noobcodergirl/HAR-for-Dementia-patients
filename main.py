@@ -39,7 +39,7 @@ ap.add_argument("-f", "--frame-count", type=int, default=32,
 args = vars(ap.parse_args())
 # args = parser.parse_args()
 
-# 导入相关模型
+
 
 #estimator = load_pretrain_model('VGG_origin')
 # estimator = load_pretrain_model('mobilenet_thin')
@@ -54,12 +54,12 @@ args = vars(ap.parse_args())
 # run_timer = 0
 # frame_count = 0
 
-# 读写视频文件（仅测试过webcam输入）
+
 
 # video_writer = set_video_writer(cap, write_fps=int(7.0))
 
 
-# # 保存关节数据的txt文件，用于训练过程(for training)
+
 #f = open('e.txt', 'a+')
 import paho.mqtt.client as mqtt
 import requests
